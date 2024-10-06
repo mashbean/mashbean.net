@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "火球",
-    pageTitleSuffix: "本文集由豆泥維護，文責自負 mashbean@gmail.com",
+    pageTitle: "mashbean",
+    pageTitleSuffix: "mashbean@gmail.com",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "zh-TW",
-    baseUrl: "mashbean.github.io/mashbean.net",
+    locale: "en-US",
+    baseUrl: "",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
